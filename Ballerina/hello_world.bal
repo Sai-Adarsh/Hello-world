@@ -4,6 +4,8 @@ import ballerina/http;
   basePath: "/"
 }
 
+//Example
+
 //Bind a New Service for port 9090
 service<http:Service> hello bind {port:9090} {
 
